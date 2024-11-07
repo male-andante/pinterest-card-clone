@@ -118,3 +118,8 @@ span {
    margin-left: 8px;
    font-size: 1em;
 }
+
+.upload, .ellipsis, .callToaction, #imageUrl {
+    transition: transform 0.4s linear;
+    z-index: 2;
+}
