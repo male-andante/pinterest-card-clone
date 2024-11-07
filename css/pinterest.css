@@ -50,23 +50,24 @@ body {
     border-width: 0;
     transition: transform 0.4s linear;
     user-select: none;
-    font-weight: 700;   
+    font-weight: 700;  
+    transform: translateY(-150%); 
 }
 
 .callToaction:hover {
     transform: translateY(100%);
     cursor: pointer;
-
 }
 
 /*Elementi e bottoni parte inferiore*/
 
-/*#cardInteraction {
-    position: absolute;
+#cardInteraction {
+    /*position: absolute;
     bottom: 0;
     width: 100%;
-    height: 100px;
-}*/
+    height: 100px;*/
+    transform: translateY(-150%);
+}
 
 #imageUrl {
     display: inline;
@@ -100,7 +101,7 @@ body {
 }
 
 .ellipsis {
-    right: 18px;6px;
+    right: 8px;
 }   
 
 .upload, .ellipsis:hover {
